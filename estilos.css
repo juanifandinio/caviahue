@@ -16,33 +16,32 @@ header{
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: 100px;
-        margin-right: 50px;
+        padding: 1.25rem 3.125rem 1.25rem 6.25rem;
+
         .logo{
-            width: 82px;
-            height: 88px;
+            width: 5.125rem;
+            height: 5.5rem;
         }
 
         ul{
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
+            gap: 5%;
             width: 875px;
+
             
             li{
                 background-color: rgb(4, 42, 45);
-                border-radius: 10px;
-                padding-top: 10px;
-                padding-left: 20px;
-                padding-bottom: 10px;
-                padding-right: 20px;
-                color: aliceblue;
-                font-family: "Montserrat", sans-serif;
-                font-weight: bold;
-                font-size: 20pt;
+                padding: 0.625rem 1.25rem;
+                border-radius: 0.625rem;
                 list-style: none;
+                color: #E3D8C2;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 1.25rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
                 
             }
         }
@@ -87,17 +86,18 @@ header{
         
     }
     h1{
+        padding-left: 30%;
+        padding-right: 30%;
+        align-items: center;
         position: relative;
         z-index: 2;
-        font-family: "Montserrat", sans-serif;
-        font-weight: bold;
-        font-size: 116px;
-        color: rgb(227, 216, 194);
+        color: #E3D8C2;
         text-align: center;
-        margin-left: 25%;
-        margin-right: 25%;
-        margin-bottom: 200px;
-
+        font-family: Montserrat;
+        font-size: 5em;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
         
         
     }
@@ -112,15 +112,14 @@ header{
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
-        padding-left: 244px;
-        padding-right: 244px;
-        padding-top: 80px;
+        
+        
+
 
         .boton-rental{
             background-image: url(imagenes/ski\ rental.jpg);
-            width: 445px;
-            height: 370px;
+            width: 28.125rem;
+            height: 23.375rem;
             border-radius: 30px;
             border: none;
             
@@ -131,10 +130,7 @@ header{
                 font-family: "Montserrat", sans-serif;
                 font-weight: bold;
                 font-size: 40pt;
-                padding-right: 81px;
-                padding-left: 81px;
-                padding-top: 6px;
-                padding-bottom: 6px;
+
 
                 
             }
@@ -143,8 +139,8 @@ header{
 
         .boton-pases{
             background-image: url(imagenes/pases.jpg);
-            width: 445px;
-            height: 370px;
+            width: 28.125rem;
+            height: 23.375rem;
             border-radius: 30px;
             border: none;
             
@@ -155,10 +151,7 @@ header{
                 font-family: "Montserrat", sans-serif;
                 font-weight: bold;
                 font-size: 40pt;
-                padding-right: 140px;
-                padding-left: 140px;
-                padding-top: 6px;
-                padding-bottom: 6px;
+
 
                 
             }
@@ -167,8 +160,8 @@ header{
 
         .boton-excursiones{
             background-image: url(imagenes/excursiones.jpg);
-            width: 445px;
-            height: 370px;
+            width: 28.125rem;
+            height: 23.375rem;
             border-radius: 30px;
             border: none;
             
@@ -179,10 +172,7 @@ header{
                 font-family: "Montserrat", sans-serif;
                 font-weight: bold;
                 font-size: 40pt;
-                padding-right: 50px;
-                padding-left: 60px;
-                padding-top: 6px;
-                padding-bottom: 6px;
+
 
                 
             }

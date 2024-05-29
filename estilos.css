@@ -8,27 +8,34 @@ header{
     position: absolute;
     width: 100%;
     z-index: 2;
+    background: rgba(17, 17, 17, 0.50);
     
     nav{
-        position: relative;
-        z-index: 2;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        padding: 1.25rem 3.125rem 1.25rem 6.25rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+
+        
+        
+        
 
         .logo{
             width: 5.125rem;
             height: 5.5rem;
+            padding-left: 50px;
         }
 
         ul{
             display: flex;
             flex-direction: row;
+            margin-right: 120px;
             gap: 5%;
-            width: 875px;
-
+            
+            
             
             li{
                 background-color: rgb(4, 42, 45);
@@ -47,15 +54,7 @@ header{
         }
     }
 
-    .capaheader{
-        position: absolute;
-        top: 0%;
-        width: 100%;
-        height: 100%;
-        background-color: black;
-        opacity:30% ;
-        
-    }
+
 
 }
 
@@ -76,16 +75,9 @@ header{
         height: 100%;
         object-fit: cover;
     }
-    .capa{
-        position: absolute;
-        top: 0%;
-        width: 100%;
-        height: 100%;
-        background-color: black;
-        opacity:30% ;
-        
-    }
+
     h1{
+        padding-bottom: 50px;
         padding-left: 30%;
         padding-right: 30%;
         align-items: center;
@@ -110,76 +102,220 @@ header{
 
     .botoneraactividades{
         display: flex;
-        flex-direction: row;
+        justify-content: center;
         align-items: center;
+        justify-content: space-between;
+        margin-right: 7%;
+        margin-left: 7%;
+        padding-top: 70px;
         
-        
-
-
         .boton-rental{
-            background-image: url(imagenes/ski\ rental.jpg);
-            width: 28.125rem;
-            height: 23.375rem;
-            border-radius: 30px;
+            display: flex;
+            width: 30%;
+            height: auto;
+            padding: 9.8125rem 0rem;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 1.875rem;
+            background: url(imagenes/ski\ rental.jpg) lightgray 50% / cover no-repeat;
             border: none;
             
-        
-            span{
-                background-color: rgb(17, 17, 17);
-                color: aliceblue;
-                font-family: "Montserrat", sans-serif;
-                font-weight: bold;
-                font-size: 40pt;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 2.5rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            color: #E3D8C2;
+            cursor: pointer;
+            transition: 0.5s;
+        }
 
-
-                
-            }
-
+        button:hover{
+            color: #E3D8C2;
+            background: rgb(4, 42, 45);
         }
 
         .boton-pases{
-            background-image: url(imagenes/pases.jpg);
-            width: 28.125rem;
-            height: 23.375rem;
-            border-radius: 30px;
+            display: flex;
+            width: 30%;
+            height: auto;
+            padding: 9.8125rem 0rem;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 1.875rem;
+            background: url(imagenes/pases.jpg) lightgray 50% / cover no-repeat;
             border: none;
-            
-        
-            span{
-                background-color: rgb(17, 17, 17);
-                color: aliceblue;
-                font-family: "Montserrat", sans-serif;
-                font-weight: bold;
-                font-size: 40pt;
 
-
-                
-            }
-
-        }
-
-        .boton-excursiones{
-            background-image: url(imagenes/excursiones.jpg);
-            width: 28.125rem;
-            height: 23.375rem;
-            border-radius: 30px;
-            border: none;
-            
-        
-            span{
-                background-color: rgb(17, 17, 17);
-                color: aliceblue;
-                font-family: "Montserrat", sans-serif;
-                font-weight: bold;
-                font-size: 40pt;
-
-
-                
-            }
-
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 2.5rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            color: #E3D8C2;
+            cursor: pointer;
+            transition: 0.5s;
         }
     
-        
+        .boton-excursiones{
+            display: flex;
+            width: 30%;
+            height: auto;
+            padding: 9.8125rem 0rem;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 1.875rem;
+            background: url(imagenes/excursiones.jpg) lightgray 50% / cover no-repeat;
+            border: none;
+           
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 2.5rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            color: #E3D8C2;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+    
+
     }
+
+    .presentacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3.75rem;
+        margin-right: 7%;
+        margin-left: 7%;
+        padding-top: 70px;
+
+        h2{
+            color: #E3D8C2;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 3.125rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        p{
+            color: #E3D8C2;
+            text-align: center;
+            leading-trim: both;
+            text-edge: cap;
+            font-family: Montserrat;
+            font-size: 1.5625rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+    .botonerainviernoverano{
+        width: 100%;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items:start;
+        justify-content: center;
+        
+        
+
+        
+       .botonybajada1{
+        
+            .boton1checkbox {
+                display: none;
+            }
+
+            .boton1 {
+                display: inline-block;
+                width: 60%;
+                padding: 10px 60px;
+                cursor: pointer;
+                border: none;
+                border-radius: 10px;
+                text-align: center;
+                color: #E3D8C2;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 2.5rem;
+                font-weight: 700;
+                line-height: normal;
+                background-color: #02776D;
+                transition: background-color 0.3s, transform 0.3s;
+
+            }
+
+            .boton1:hover {
+                background-color: #015A53; 
+                transform: scale(1.05);
+            }
+
+            .textoyboton1 {
+                display: none;
+                
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                width: 300px;
+            }
+            
+            .boton1checkbox:checked + .boton1 + .textoyboton1 {
+                display: block;
+            }
+       }
+    
+       .botonybajada2{
+        
+        .boton2checkbox {
+            display: none;
+        }
+        
+        .boton2{
+            display: inline-block;
+            width: 60%;
+            margin: 0% 0%;
+            padding: 10px 60px;
+            cursor: pointer;
+            border: none;
+            border-radius: 10px;
+            text-align: center;
+            color: #E3D8C2;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: normal;
+            background-color: #002034; 
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        
+        .boton2:hover {
+            background-color: #001720; 
+            transform: scale(1.05);
+        }
+        
+        .textoyboton2 {
+            display: none;
+            
+            
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 300px;
+        }
+        
+        .boton2checkbox:checked + .boton2 + .textoyboton2 {
+            display: block;
+        }
+    }
+    
+    }
+
 
 }
